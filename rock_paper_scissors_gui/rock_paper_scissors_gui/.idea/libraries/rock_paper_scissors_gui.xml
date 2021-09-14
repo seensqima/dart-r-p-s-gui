@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rock_paper_scissors_gui">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/rock_paper_scissors_gui.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
