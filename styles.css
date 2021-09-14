@@ -1,0 +1,57 @@
+body {
+    background: #141414;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+font{
+    background:red;
+    font-size: 20px;
+}
+.move_icons{
+    font-size: 50px;
+    margin-top: 10px;
+}
+.move_name{font-size: 18px;}
+
+button span{display:block;}
+button{
+    background: white;
+    border: 5px ridge white;
+    line-height: 50px;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+}
+button:hover{
+    background:yellow;
+    cursor: pointer;
+    border: 5px groove yellow;
+}
+button:focus{
+    background:orange;
+    border: 5px groove orange;
+}
+button:active{
+    background:gold;
+    border: 5px groove gold;
+}
+#wrapper{
+    position: absolute;
+    top: calc(50% - 200px);
+    height: 300px;
+    left: calc(50% - 300px);
+    padding: 50px 80px;
+    background: #111;
+}
+#display{margin: 50px 0 0 0;}
+#display div{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+#output{
+    margin: 20px 0 0 0;
+    text-transform: uppercase;
+}
