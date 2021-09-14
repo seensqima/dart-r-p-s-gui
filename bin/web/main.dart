@@ -5,13 +5,9 @@ void main() {
   final object = classname();
 
   final ai_display = querySelector('#ai_move_display');
-  
   final player_display = querySelector('#player_move_display');
-  
   final rock_icon = querySelector('.rock');
-  
   final paper_icon = querySelector('.paper');
-  
   final scissor_icon = querySelector('.scissor');
 
   querySelector('#rock')?.onClick.listen((_) {
@@ -111,3 +107,7 @@ class classname {
 
 
 
+// conditions are not tested.
+// values are not passed in parameter.
+// project is not launching dart with live html.
+// only intelij is working.
